@@ -6,8 +6,8 @@ import './all.sass'
 
 const TemplateWrapper = ({ children }) => (
   <div>
-    <Helmet title="Home | Gatsby + Netlify CMS" />
-    <Navbar />
+    <Helmet title="Kaylee 💏 Devin" />
+    {/* <Navbar /> */}
     <div>{children}</div>
   </div>
 )
