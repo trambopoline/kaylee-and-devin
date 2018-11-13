@@ -3,6 +3,7 @@ import PropTypes from 'prop-types'
 import { Link, graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import MrBubz from '../components/MrBubz'
+import Emoji from '../components/Emoji'
 
 export default class IndexPage extends React.Component {
   render() {
@@ -15,9 +16,9 @@ export default class IndexPage extends React.Component {
           <div className="hero-body">
             <div className="container">
               <h1 className="title">
-                <div class="level">
-                  <div className="level-left">Tale as Old as Time 🍵</div>
-                  <div className="level-right">😗😗😗</div></div>
+                <div className="level">
+                  <div className="level-left">Tale as Old as Time </div>
+                  <div className="level-right"><Emoji symbol="😗😗😗" label="three kiss-face emoji" /></div></div>
               </h1>
               <p className="subtitle">
                 ‒ Agatha Christie
